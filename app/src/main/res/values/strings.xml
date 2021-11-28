@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lucky´s Mart</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="userName">UserName</string>
+    <string name="lastName">Last Name</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="edit">Edit</string>
+    <string name="user">USER</string>
+    <string name="seller">SELLER</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="registerUser">Register User!!</string>
+    <string name="editUser">Edit User!!</string>
+    <string name="registerSeller">Register Seller!!</string>
+    <string name="editSeller">Edit Seller!!</string>
+    <string name="registerProduct">Register Product!!</string>
+    <string name="editProduct">Edit Product!!</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="photo">Photo</string>
+    <string name="value">Value</string>
+    <string name="category">Category</string>
+    <string name="Amount">Amount</string>
+    <string name="register">Register</string>
+</resources>
