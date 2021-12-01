@@ -14,6 +14,7 @@ import com.moviles.lucky_smart.DbHelper;
 import com.moviles.lucky_smart.ProfileProductActivity;
 import com.moviles.lucky_smart.ProfileSellerActivity;
 import com.moviles.lucky_smart.databinding.ProductsItemBinding;
+import com.moviles.lucky_smart.databinding.ProductsuserItemBinding;
 import com.moviles.lucky_smart.databinding.SellersItemBinding;
 import com.moviles.lucky_smart.entities.ProductEntity;
 

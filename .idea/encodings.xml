@@ -3,21 +3,27 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/moviles/lucky_smart/adapters/UserAdapter.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/users_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp-land/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp-land/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp-land/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp-land/users_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw320dp/users_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp-land/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp-land/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp-land/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp-land/users_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-sw480dp/users_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/products_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/productsuser_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/users_item.xml" charset="windows-1251" />
   </component>
