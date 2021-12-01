@@ -17,7 +17,12 @@
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/drawable/outline_shopping_cart_24.xml" value="0.19537037037037036" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/drawable/style_border_black.xml" value="0.2203125" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/drawable/style_border_editext.xml" value="0.2203125" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_list_products.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_list_seller.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_list_users.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_main.xml" value="1.2" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_profile_product.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_profile_seller.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_register.xml" value="0.175" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_register_products.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_register_seller.xml" value="0.19322916666666667" />
@@ -25,7 +30,9 @@
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_register_user.xml" value="0.175" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_register_user2.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/activity_splash.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/products_item.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/sellers_item.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-land/users_item.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw320dp-land/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw320dp-land/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw320dp-land/activity_register_products.xml" value="0.12604166666666666" />
@@ -59,11 +66,13 @@
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw480dp/activity_splash.xml" value="0.20166666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.12585034013605442" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_list_products.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_list_seller.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_list_seller2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_list_users.xml" value="0.1962962962962963" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_profile.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_profile_product.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_profile_seller.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_register_products.xml" value="0.20416666666666666" />
@@ -73,6 +82,7 @@
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_register_user.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_register_user2.xml" value="0.25" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/products_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/seller_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/sellers_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Alexa/OneDrive/Documentos/Android/lucky'smart/app/src/main/res/layout/users_item.xml" value="0.20416666666666666" />

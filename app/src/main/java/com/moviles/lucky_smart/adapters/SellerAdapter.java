@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.moviles.lucky_smart.DbHelper;
+import com.moviles.lucky_smart.ProfileProductActivity;
 import com.moviles.lucky_smart.ProfileSellerActivity;
 import com.moviles.lucky_smart.databinding.SellersItemBinding;
 import com.moviles.lucky_smart.entities.SellerEntity;
@@ -19,6 +20,7 @@ import com.moviles.lucky_smart.entities.SellerEntity;
 import java.util.ArrayList;
 
 public class SellerAdapter extends RecyclerView.Adapter<SellerAdapter.SellerViewHolder>{
+
     private SellersItemBinding sellersItemBinding;
     private Context context;
     private DbHelper dbHelper;
@@ -61,7 +63,7 @@ public class SellerAdapter extends RecyclerView.Adapter<SellerAdapter.SellerView
         holder.itemBinding.btnEditSeller2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ProfileSellerActivity.class);
+                Intent intent = new Intent(context, ProfileProductActivity.class);
                 intent.putExtra("sellerData",seller);
                 context.startActivity(intent);
             }

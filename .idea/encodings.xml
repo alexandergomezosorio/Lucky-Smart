@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/moviles/lucky_smart/adapters/UserAdapter.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/products_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/sellers_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/users_item.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/products_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/sellers_item.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/users_item.xml" charset="windows-1251" />
   </component>
