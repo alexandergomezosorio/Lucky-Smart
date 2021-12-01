@@ -42,7 +42,7 @@ public class RegisterProductsActivity extends AppCompatActivity implements View.
 
         long newProduct = db.insert("products",null,productData);
         Toast.makeText(this, ""+newProduct, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this,ListSellerActivity.class);
+        Intent intent = new Intent(this,SelectActivity.class);
         startActivity(intent);
 
     }

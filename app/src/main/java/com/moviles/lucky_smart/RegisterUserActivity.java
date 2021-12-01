@@ -43,7 +43,7 @@ public class RegisterUserActivity extends AppCompatActivity implements View.OnCl
 
         long newUser = db.insert("users",null,userData);
         Toast.makeText(this, ""+newUser, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this,ListUsersActivity.class);
+        Intent intent = new Intent(this,SelectActivity.class);
         startActivity(intent);
 
     }
