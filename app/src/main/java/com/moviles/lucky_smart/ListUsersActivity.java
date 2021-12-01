@@ -48,14 +48,17 @@ public class ListUsersActivity extends AppCompatActivity {
                 int indexEmailRow = cursor.getColumnIndex("email");
                 int indexPasswordRow = cursor.getColumnIndex("password");
                 int indexNameRow = cursor.getColumnIndex("name");
+                int indexCityRow = cursor.getColumnIndex("city");
                 String name =cursor.getString(indexNameRow);
                 String email = cursor.getString(indexEmailRow);
                 String password = cursor.getString(indexPasswordRow).toString();
+                String city = cursor.getString(indexCityRow).toString();
                 UserEntity userEntity = new UserEntity();
                 userEntity.setIdUser(idUser);
                 userEntity.setEmail(email);
                 userEntity.setPassword(password);
                 userEntity.setName(name);
+                userEntity.setCity(city);
 
                 usersArrayList.add(userEntity);
             }

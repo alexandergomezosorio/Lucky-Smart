@@ -22,7 +22,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnEditSeller2"
+        android:id="@+id/btnEditUser"
         android:layout_width="166dp"
         android:layout_height="51dp"
         android:layout_marginTop="55dp"

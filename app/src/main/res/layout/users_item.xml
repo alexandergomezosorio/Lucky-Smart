@@ -26,7 +26,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvEmailSeller"
+                    android:id="@+id/tvEmailUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -34,7 +34,7 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/tvNameSeller"
+                    android:id="@+id/tvNameUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -42,7 +42,7 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/tvnameShop"
+                    android:id="@+id/tvCityUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -55,7 +55,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/btnEditSeller2"
+                        android:id="@+id/btnEditUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -68,7 +68,7 @@
                         app:strokeWidth="1dp" />
 
                     <Button
-                        android:id="@+id/btnDeleteSeller"
+                        android:id="@+id/btnDeleteUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"

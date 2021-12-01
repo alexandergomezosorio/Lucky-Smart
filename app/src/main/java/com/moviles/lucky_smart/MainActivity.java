@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.btnSignIn:
+                Intent intent2 = new Intent(this, ListSellerActivity.class);
+                startActivity(intent2);
+                break;
 
         }
 

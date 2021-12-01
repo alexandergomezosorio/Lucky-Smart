@@ -10,7 +10,7 @@ import android.view.View;
 import com.moviles.lucky_smart.databinding.ActivityProfileBinding;
 import com.moviles.lucky_smart.entities.UserEntity;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity implements View.OnClickListener{
 
     private ActivityProfileBinding profileBinding;
     private DbHelper dbHelper;
@@ -48,5 +48,15 @@ public class ProfileActivity extends AppCompatActivity {
         db.execSQL(sql);
         Intent intent = new Intent(this,ListUsersActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch(view.getId()){
+            case R.id.btnBack5:
+                Intent intent2 = new Intent(this,ListUsersActivity.class);
+                startActivity(intent2);
+                break;
+        }
     }
 }

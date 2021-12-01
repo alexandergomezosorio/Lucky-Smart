@@ -7,12 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 
-import com.moviles.lucky_smart.databinding.ActivityProfileBinding;
+
 import com.moviles.lucky_smart.databinding.ActivityProfileSellerBinding;
 import com.moviles.lucky_smart.entities.SellerEntity;
-import com.moviles.lucky_smart.entities.UserEntity;
 
-public class ProfileSellerActivity extends AppCompatActivity {
+public class ProfileSellerActivity extends AppCompatActivity implements View.OnClickListener{
 
     private ActivityProfileSellerBinding profileSellerBinding;
     private DbHelper dbHelper;
@@ -49,9 +48,19 @@ public class ProfileSellerActivity extends AppCompatActivity {
         String nameShop = profileSellerBinding.etNameShopSeller.getText().toString();
 
 
-        String sql = String.format("UPDATE users set emailSeller='%s',passwordSeller='%s',nameSeller='%s',citySeller='%s',nameShop='%s' WHERE idUser=%s",emailSeller,passwordSeller,nameSeller,citySeller,nameShop,idSeller);
+        String sql = String.format("UPDATE sellers set emailSeller='%s',passwordSeller='%s',nameSeller='%s',citySeller='%s',nameShop='%s' WHERE idSeller=%s",emailSeller,passwordSeller,nameSeller,citySeller,nameShop,idSeller);
         db.execSQL(sql);
-        Intent intent = new Intent(this,ListUsersActivity.class);
+        Intent intent = new Intent(this,ListSellerActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch(view.getId()){
+            case R.id.btnBack6:
+                Intent intent2 = new Intent(this,ListSellerActivity.class);
+                startActivity(intent2);
+                break;
+        }
     }
 }

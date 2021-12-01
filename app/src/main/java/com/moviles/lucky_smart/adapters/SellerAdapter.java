@@ -40,15 +40,14 @@ public class SellerAdapter extends RecyclerView.Adapter<SellerAdapter.SellerView
     @Override
     public void onBindViewHolder(@NonNull SellerAdapter.SellerViewHolder holder, int position) {
         final SellerEntity seller = sellerArrayList.get(position);
-        holder.itemBinding.tv.setText(seller.getEmailSeller());
-        holder.itemBinding.tvName.setText(seller.getNameSeller());
-        holder.itemBinding.tvcity.setText(seller.getCitySeller());
+        holder.itemBinding.tvNameSeller2.setText(seller.getNameSeller());
+        holder.itemBinding.tvNameShop.setText(seller.getNameShop());
 
         holder.itemBinding.btnDeleteSeller.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.delete("seller","idSeller="+seller.getIdSeller(),null);
+                db.delete("sellers","idSeller="+seller.getIdSeller(),null);
                 for(int i=0;i<sellerArrayList.size();i++){
                     if(sellerArrayList.get(i).getIdSeller() == seller.getIdSeller()){
                         sellerArrayList.remove(i);
@@ -75,8 +74,8 @@ public class SellerAdapter extends RecyclerView.Adapter<SellerAdapter.SellerView
     }
 
     public class SellerViewHolder extends RecyclerView.ViewHolder {
-        private SellerItemBinding itemBinding;
-        public SellerViewHolder(@NonNull SellerItemBinding itemView) {
+        private SellersItemBinding itemBinding;
+        public SellerViewHolder(@NonNull SellersItemBinding itemView) {
             super(itemView.getRoot());
             this.itemBinding = itemView;
 

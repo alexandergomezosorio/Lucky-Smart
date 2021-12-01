@@ -14,7 +14,7 @@ import com.moviles.lucky_smart.DbHelper;
 import com.moviles.lucky_smart.ProfileActivity;
 import com.moviles.lucky_smart.databinding.UsersItemBinding;
 import com.moviles.lucky_smart.entities.UserEntity;
-import com.moviles.lucky_smart.databinding.UsersItemBinding;
+
 
 import java.util.ArrayList;
 
@@ -39,9 +39,9 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UsersViewHolde
     @Override
     public void onBindViewHolder(@NonNull UsersViewHolder holder, int position) {
         final UserEntity user = userArrayList.get(position);
-        holder.itemBinding.tvEmailSeller.setText(user.getEmail());
-        holder.itemBinding.tvName.setText(user.getName());
-        holder.itemBinding.tvcity.setText(user.getCity());
+        holder.itemBinding.tvEmailUser.setText(user.getEmail());
+        holder.itemBinding.tvNameUser.setText(user.getName());
+        holder.itemBinding.tvCityUser.setText(user.getCity());
 
         holder.itemBinding.btnDeleteUser.setOnClickListener(new View.OnClickListener() {
             @Override
